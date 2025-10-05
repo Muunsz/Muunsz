@@ -1,33 +1,58 @@
-name: Generate pacman animation
+# Nama alur kerja (workflow) yang akan muncul di tab Actions di GitHub
+name: Generate Pacman Animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
+  # Opsi untuk menjalankan alur kerja secara manual dari tab Actions
   workflow_dispatch:
+  
+  # Menjalankan alur kerja secara otomatis setiap 12 jam
+  schedule:
+    - cron: "0 */12 * * *" # Dijalankan pada jam 00:00 dan 12:00 UTC
 
+  # Menjalankan alur kerja setiap kali ada push ke branch 'main'
   push:
     branches:
-    - main
+      - main
 
 jobs:
+  # Nama pekerjaan (job) yang akan dijalankan
   generate:
+    # Memberikan izin kepada alur kerja untuk menulis ke repositori
     permissions:
       contents: write
+      
+    # Menggunakan sistem operasi Ubuntu versi terbaru
     runs-on: ubuntu-latest
+    
+    # Memberi batas waktu 5 menit agar tidak berjalan terlalu lama
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
+      # Langkah 1: Checkout kode repositori Anda
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Langkah 2: Membuat file SVG animasi Pac-Man
+      # Menggunakan action dari 'abozanona/pacman-contribution-graph'
+      - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
+          # Mengambil nama pengguna GitHub Anda secara otomatis
           github_user_name: ${{ github.repository_owner }}
+          
+          # Menentukan direktori output, yaitu 'dist'
+          outputs_dir: dist
 
-
-      - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      # Langkah 3: Mendorong (push) file SVG yang sudah dibuat ke branch 'output'
+      # Menggunakan action dari 'crazy-max/ghaction-github-pages'
+      - name: Push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
+          # Nama branch tujuan tempat menyimpan file SVG
           target_branch: output
+          
+          # Direktori yang berisi file yang akan di-push (hasil dari langkah sebelumnya)
           build_dir: dist
         env:
+          # Token rahasia untuk otentikasi saat melakukan push
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
