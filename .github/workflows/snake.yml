@@ -2,9 +2,8 @@ name: Generate Snake Contribution Animation
 
 on:
   schedule:
-    # Jalankan setiap 12 jam (pukul 00:00 dan 12:00 UTC)
-    - cron: "0 */12 * * *"
-  workflow_dispatch: # Trigger manual
+    - cron: "0 */12 * * *"  # Setiap 12 jam
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -20,26 +19,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake.svg with enhanced green palette
+      - name: Generate snake.svg with enhanced green palette and neon food
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Gunakan palet kustom dengan dominasi hijau
           palette: |
             {
-              "background": "#0d1117",
-              "stroke": "#161b22",
-              "dates": "#3fb950",
+              "background": "#000000",
+              "stroke": "#050a05",
+              "dates": "#00ff41",
               "contributions": {
-                "0": "#161b22",
-                "1": "#238636",
-                "2": "#2ea043",
-                "3": "#3fb950",
-                "4": "#56d364",
-                "5": "#7ee787",
-                "6": "#a6f7a6",
-                "7": "#bbffbb"
-              }
+                "0": "#050a05",
+                "1": "#0d3b0d",
+                "2": "#145e14",
+                "3": "#1b8a1b",
+                "4": "#23c523",
+                "5": "#3cff3c",
+                "6": "#70ff70",
+                "7": "#aaffaa"
+              },
+              "food": "#ff00ff"
             }
           outputs: |
             dist/snake.svg
