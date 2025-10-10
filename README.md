@@ -64,5 +64,13 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Muunsz/Muunsz/output/snake-dark.svg" alt="Snake animation" />
+<br clear="both">
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Muunsz/Muunsz/output/snake-dark.svg" 
+       alt="Snake animation" 
+       style="filter: drop-shadow(0 0 4px #3fb950); transition: filter 0.3s ease;" 
+       onmouseover="this.style.filter='drop-shadow(0 0 8px #56d364)'" 
+       onmouseout="this.style.filter='drop-shadow(0 0 4px #3fb950)'" />
+</div>
 
