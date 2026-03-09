@@ -1,10 +1,44 @@
-<h2 align="left">Hai, gue Muunsz — programmer yang senang ngoprek kode dan bikin solusi teknologi.<br>Kalau nggak nulis code, pasti lagi mikirin bug yang belum ketemu solusinya!</h2>
-
-###
-
 <div>
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3DF4AD&height=120&section=header&animation=twinkling"/>
 </div>
+
+<h1 align="center">Hai, Gue Muunsz Atau Nanda — Programmer Yang Senang Ngoprek Kode Dan Bikin Solusi Teknologi </h1>
+<h3 align="center">Full Stack Web Developer & ML Enthusiast </h3>
+<h3 align="center">Kalau nggak nulis code, pasti lagi mikirin bug yang belum ketemu solusinya! </h3>
+
+---
+
+### 🎨 About Me
+
+```json
+{
+  "about_me": {
+    "headline": "Programmer & Frontend Enthusiast",
+    "description": "Hai, gue Muunsz — programmer yang senang ngoprek kode dan bikin solusi teknologi. Gue percaya kode bukan cuma soal logika, tapi juga estetika.",
+    "specialty": "Frontend Development & UI/UX Design",
+    "interests": [
+      "Ngoprek Kode",
+      "Building Tech Solutions",
+      "Micro-interactions",
+      "Optimizing Systems"
+    ],
+    "motto": "Navīnatā saha vivekaṃ vardhate"
+  }
+}
+```
+
+---
+
+### 🎨 About Me
+Gue adalah seorang **Programmer** yang percaya bahwa kode bukan cuma soal logika, tapi juga estetika. Gue sangat suka ngoprek **Frontend** karena di sana gue bisa menggabungkan kecintaan gue pada desain dengan solusi teknologi yang nyata.
+
+- 🔭 **Sedang Fokus:** Mempelajari teknik *Micro-interactions* dan animasi web yang *smooth*.
+- 🖌️ **Visi:** Bikin aplikasi yang nggak cuma fungsional, tapi juga memanjakan mata user.
+- 🐛 **Motto:** "Kalau nggak nulis code, pasti lagi mikirin bug yang belum ketemu solusinya!"
+
+---
+
+<h3 align="center">"Navīnatā saha vivekaṃ vardhate." </h3>
 
 ###
 
