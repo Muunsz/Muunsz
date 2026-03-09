@@ -1,12 +1,14 @@
-name: Generate Snake Contribution Animation
+name: Generate snake animation
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"  # Setiap 12 jam
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
-      - main
+    - main
 
 jobs:
   generate:
@@ -16,44 +18,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate snake.svg with enhanced green palette and neon food
-        uses: Platane/snk@v3
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          palette: |
-            {
-              "background": "#000000",
-              "stroke": "#050a05",
-              "dates": "#00ff41",
-              "contributions": {
-                "0": "#050a05",
-                "1": "#0d3b0d",
-                "2": "#145e14",
-                "3": "#1b8a1b",
-                "4": "#23c523",
-                "5": "#3cff3c",
-                "6": "#70ff70",
-                "7": "#aaffaa"
-              },
-              "food": "#ff00ff"
-            }
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+          outputs: dist/snake.svg?palette=github-dark
 
-      - name: Ensure dist directory exists and verify files
-        run: |
-          mkdir -p dist
-          ls -la dist/
-          if [ ! -f dist/snake.svg ]; then
-            echo "❌ snake.svg not generated!"
-            exit 1
-          fi
 
-      - name: Deploy to output branch
+      - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
