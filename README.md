@@ -28,8 +28,6 @@
 ```
 
 ---
-
-### 🎨 About Me
 Gue adalah seorang **Programmer** yang percaya bahwa kode bukan cuma soal logika, tapi juga estetika. Gue sangat suka ngoprek **Frontend** karena di sana gue bisa menggabungkan kecintaan gue pada desain dengan solusi teknologi yang nyata.
 
 - 🔭 **Sedang Fokus:** Mempelajari teknik *Micro-interactions* dan animasi web yang *smooth*.
