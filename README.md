@@ -97,12 +97,12 @@ Gue adalah seorang **Programmer** yang percaya bahwa kode bukan cuma soal logika
 ### Frontend Development
 
 <div>
-   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,alpinejs,tailwind,bootstrap,vite" />
+   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,alpinejs,tailwind,bootstrap,vite,vue" />
 </div>
 
 ### Backend Development
 <div>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,laravel,php,py,flask" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,laravel,php,py,flask,go" />
 </div>
 
 ### Database
@@ -112,7 +112,7 @@ Gue adalah seorang **Programmer** yang percaya bahwa kode bukan cuma soal logika
 
 ### DevOps & Cloud
 <div>
-<img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify" />
+<img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify,gitlab" />
 </div>
 
 ### Tools & Utilities
