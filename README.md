@@ -8,9 +8,8 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Muunsz&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Muunsz&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
 </div>
 
 ###
@@ -56,9 +55,42 @@
 
 ###
 
+###
+
+---
+<div align="center">
+   
+## My Tech Stack:
+
+### Frontend Development
+
 <div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,alpinejs,tailwind,bootstrap,vite" />
 </div>
+
+### Backend Development
+<div>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,laravel,php,py,flask" />
+</div>
+
+### Database
+<div>
+<img src="https://skillicons.dev/icons?i=postgresql,mysql,sqlite,supabase" />
+</div>
+
+### DevOps & Cloud
+<div>
+<img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify" />
+</div>
+
+### Tools & Utilities
+<div>
+<img src="https://skillicons.dev/icons?i=vscode,postman,figma,notion,discord" />
+</div>
+
+</div>
+
+---
 
 ###
 
@@ -73,4 +105,24 @@
        onmouseover="this.style.filter='drop-shadow(0 0 8px #56d364)'" 
        onmouseout="this.style.filter='drop-shadow(0 0 4px #3fb950)'" />
 </div>
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevinSinatria/KevinSinatria/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevinSinatria/KevinSinatria/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Muunsz/muunsz/output/pacman-contribution-graph.svg">
+</picture>
+
+---
+
+<div align="center"><img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" alt="Comet" width="120" /></div>
+<p align="center">
+  Keep learning. Keep creating. Keep developing.
+</p>
+<h2 align="center">
+  “Man Jadda Wajada”
+</h2>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3DF4AD&height=80&section=footer&animation=twinkling"/>
 
