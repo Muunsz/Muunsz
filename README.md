@@ -2,15 +2,15 @@
 
 ###
 
-<br clear="both">
-
-<img align="left" height="225" src="https://avatars.githubusercontent.com/u/112951806?s=400&u=8a8eb83592c689c51f97251042ddaa5000e4d9ad&v=4"  />
+<div>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3DF4AD&height=120&section=header&animation=twinkling"/>
+</div>
 
 ###
 
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
-</div>
+<br clear="both">
+
+<img align="left" height="150" src="https://avatars.githubusercontent.com/u/112951806?s=400&u=8a8eb83592c689c51f97251042ddaa5000e4d9ad&v=4"  />
 
 ###
 
@@ -55,12 +55,10 @@
 
 ###
 
-###
-
 ---
 <div align="center">
    
-## My Tech Stack:
+### My Tech Stack:
 
 ### Frontend Development
 
@@ -121,7 +119,7 @@
   Keep learning. Keep creating. Keep developing.
 </p>
 <h2 align="center">
-  “Man Jadda Wajada”
+  “Bismillah Sukses”
 </h2>
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=3DF4AD&height=80&section=footer&animation=twinkling"/>
